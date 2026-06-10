@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 0 0% 99%;
+    --foreground: 200 20% 12%;
+    --primary: 168 80% 30%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 168 40% 95%;
+    --secondary-foreground: 168 80% 25%;
+    --muted: 200 10% 95%;
+    --muted-foreground: 200 10% 45%;
+    --accent: 30 90% 55%;
+    --accent-foreground: 0 0% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 20% 12%;
+    --border: 200 10% 90%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Bar move */
+  ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 9999px;
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #67e8f9;
+  box-shadow: 0 0 14px rgba(103, 232, 249, 0.9);
+}
+
+@supports (scrollbar-color: auto) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #22d3ee #020617;
+  }
+}
+}
