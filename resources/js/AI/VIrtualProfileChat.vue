@@ -100,7 +100,7 @@ const sendMessage = async () => {
 
         <div
             v-else
-            class="w-96 h-[500px] bg-[#070b14]/90 backdrop-blur-md border border-slate-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200"
+            class="m-10 w-auto sm:w-96 h-auto sm:h-[500px] bg-[#070b14]/90 backdrop-blur-md border border-slate-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200"
         >
             <div
                 class="p-4 bg-[#0d1527]/80 border-b border-slate-800 flex items-center justify-between"

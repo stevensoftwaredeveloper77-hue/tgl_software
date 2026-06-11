@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
 use App\Http\Controllers\GuestController;
 use  App\Http\Controllers\VictimController;
-use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RequestController;
 use App\Http\Controllers\CustomerController;
@@ -63,9 +62,6 @@ Route::middleware('auth', 'role:admin')->group(function () {
     Route::post('/request/delete', [RequestController::class, 'delete'])->name('request.delete');
     Route::post('/request/update/{id}', [RequestController::class, 'update'])->name('request.update');
 });
-
-//Contact
-Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 
 
 //Agendly

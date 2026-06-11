@@ -582,7 +582,7 @@ const resetForm = () => {
                                                 "
                                                 type="text"
                                                 placeholder="Tu nombre"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>
@@ -619,7 +619,7 @@ const resetForm = () => {
                                                 "
                                                 type="text"
                                                 placeholder="Tus apellidos"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>
@@ -656,7 +656,7 @@ const resetForm = () => {
                                                 "
                                                 type="email"
                                                 placeholder="correo@ejemplo.com"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                                 :class="{
                                                     'border-red-300 focus:border-red-500 focus:ring-red-500/10':
                                                         formData.customer
@@ -713,7 +713,7 @@ const resetForm = () => {
                                                 "
                                                 type="tel"
                                                 placeholder="+52 123 456 7890"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>

@@ -209,12 +209,12 @@ const resetForm = () => {
                         Respuesta en menos de 24 horas
                     </span>
                     <h1
-                        class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl text-balance"
+                        class="text-2xl sm:text-4xl font-bold tracking-tight text-white lg:text-6xl text-balance"
                     >
                         Enviar Solicitud
                     </h1>
                     <p
-                        class="mt-6 text-lg leading-8 text-slate-300 max-w-2xl mx-auto text-pretty"
+                        class="mt-6 text-base sm:text-lg leading-8 text-slate-300 max-w-2xl mx-auto text-pretty"
                     >
                         Cuéntanos sobre tu proyecto o requerimiento. Completa el
                         formulario y nos pondremos en contacto contigo a la
@@ -574,7 +574,7 @@ const resetForm = () => {
                                                 "
                                                 type="text"
                                                 placeholder="Tu nombre"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>
@@ -611,7 +611,7 @@ const resetForm = () => {
                                                 "
                                                 type="text"
                                                 placeholder="Tus apellidos"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>
@@ -648,7 +648,7 @@ const resetForm = () => {
                                                 "
                                                 type="email"
                                                 placeholder="correo@ejemplo.com"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                                 :class="{
                                                     'border-red-300 focus:border-red-500 focus:ring-red-500/10':
                                                         formData.customer
@@ -705,7 +705,7 @@ const resetForm = () => {
                                                 "
                                                 type="tel"
                                                 placeholder="+52 123 456 7890"
-                                                class="w-full pl-12 pr-4 py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
+                                                class="w-full pl-12 pr-4 py-1 sm:py-3.5 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 transition-all duration-200 placeholder:text-gray-400 text-gray-900"
                                             />
                                         </div>
                                     </div>

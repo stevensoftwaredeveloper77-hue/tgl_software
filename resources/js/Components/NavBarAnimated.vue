@@ -194,7 +194,10 @@ onUnmounted(() => {
                     <button
                         v-for="link in navLinks"
                         :key="link.id"
-                        @click="navigateToSection(link.id)"
+                        @click="
+                            (navigateToSection(link.id),
+                            (isMobileMenuOpen = !isMobileMenuOpen))
+                        "
                         class="w-full text-left px-4 py-3 text-slate-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors"
                     >
                         {{ link.label }}
